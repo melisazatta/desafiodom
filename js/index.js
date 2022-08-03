@@ -12,6 +12,12 @@ const list = document.getElementById('#lista');
 titulo.innerHTML = 'Practicando como modificar el DOM';
 console.log(titulo.innerHTML)
 
+//Cada vez que se actualiza la pagina el titulo cambia de color.
+const colors = ['darkviolet', 'deepskyblue', 'deeppink', 'darkcyan']
+let randomColor = Math.floor(Math.random()*colors.length)
+
+titulo.style.color = colors[randomColor]
+
 //Muestra cada nombre del array en una lista.
 const arrayLista = ['Ana', 'Maria', 'Juan'];
 
