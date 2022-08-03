@@ -1,0 +1,15 @@
+#saludo {
+    color: cornflowerblue;
+    padding-top: 2rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+h1 {
+    color: deeppink;
+}
+
+.list {
+    color: blueviolet;
+    padding-bottom: 2rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
